@@ -1,0 +1,136 @@
+@import "reset.css";
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+body {
+  font-family: "Fredericka the Great", cursive;
+  width: 100%;
+  height: 100%;
+  background-color: #192a56;
+  position: relative;
+  color: white;
+}
+form > input {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgb(207, 172, 231);
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(255, 255, 255);
+  font-style: italic;
+=======
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #130f40;
+  position: relative;
+>>>>>>> master
+}
+.clock {
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  transform: translateX(-50%);
+<<<<<<< HEAD
+  font-size: 150px;
+}
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 260px;
+  transform: translateX(-50%);
+  font-size: 40px;
+  color: rgb(208, 242, 255);
+=======
+  color: white;
+  font-size: 150px;
+}
+form > input {
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid violet;
+  border-radius: 20px;
+  outline: none;
+>>>>>>> master
+}
+.toDoForm {
+  position: absolute;
+  left: 50%;
+  top: 350px;
+  transform: translateX(-50%);
+}
+.toDoList {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 420px;
+  transform: translateX(-15%);
+<<<<<<< HEAD
+  font-size: 22px;
+  color: pink;
+=======
+  color: white;
+>>>>>>> master
+}
+.toDo {
+  margin-bottom: 5px;
+}
+.weather {
+  position: fixed;
+<<<<<<< HEAD
+  right: 20px;
+  bottom: 20px;
+=======
+  right: 10px;
+  bottom: 10px;
+  color: white;
+}
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 250px;
+  transform: translateX(-50%);
+  font-size: 50px;
+  color: white;
+>>>>>>> master
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
+.bgImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+<<<<<<< HEAD
+  animation: fadeIn 3.5s linear;
+=======
+  animation: fadeIn 3s linear;
+>>>>>>> master
+}

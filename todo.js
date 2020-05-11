@@ -6,16 +6,25 @@ const TODOS_LS = "toDos";
 
 let toDos = [];
 
+function sortId(ul, array) {
+  for (const i in array) {
+    const parseI = parseInt(i, 10);
+    ul.childNodes[parseI].id = parseI + 1;
+    array[parseI].id = parseI + 1;
+  }
+}
+
 function deleteToDo(event) {
-  let i = 1;
   const btn = event.target;
   const li = btn.parentNode;
+  const ul = li.parentNode;
   console.dir();
   toDoList.removeChild(li);
   const cleanToDos = toDos.filter(function (toDo) {
     return toDo.id !== parseInt(li.id);
   });
   toDos = cleanToDos;
+  sortId(ul, toDos);
   saveToDos();
 }
 
